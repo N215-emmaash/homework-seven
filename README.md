@@ -9,4 +9,4 @@ Teach you how to deal with images next to text
 Use media queries
 Use percentages
 
-Web 4 Link: https://in-info-web4.informatics.iupui.edu/~emmaash/N215/homework-five/
+Web 4 Link: https://in-info-web4.informatics.iupui.edu/~emmaash/N215/homework-six/tours.html
