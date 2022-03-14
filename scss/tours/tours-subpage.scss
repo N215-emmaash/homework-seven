@@ -1,0 +1,88 @@
+.tours-subpage-hero {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: $content-width;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+
+  .tours-hero-text {
+    font-size: 80px;
+    font-family: Nova;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .tours-price-text {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Nova;
+    position: absolute;
+    right: 10px;
+    bottom: -6px;
+  }
+}
+
+.tours-subpage-images {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: $content-width;
+  min-height: 304px;
+  //   background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+
+  .tours-image {
+    width: 298px;
+    height: 347px;
+  }
+}
+
+.tours-subpage-text {
+  margin: 0 auto;
+  min-height: 776px;
+  max-width: $content-width;
+  //   background-color: aquamarine;
+  position: relative;
+
+  h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-family: Nova;
+    font-weight: thin;
+  }
+  hr {
+    width: 171px;
+    border: 2px solid;
+    margin-top: -10px;
+    position: absolute;
+    left: 0;
+  }
+
+  p {
+    margin-top: 20px;
+    font-family: Gill Sans;
+    font-size: 16pxs;
+    padding-bottom: 100px;
+  }
+}
+
+.book-now-button {
+  background-color: $site-blue;
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: Gill Sans;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
