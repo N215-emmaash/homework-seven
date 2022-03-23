@@ -533,4 +533,11 @@ footer .footer-content .footer-icons i {
   margin-bottom: 100px;
 }
 
+.special-offers {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100%;
+  background-color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
