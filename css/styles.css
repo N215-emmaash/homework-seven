@@ -729,7 +729,6 @@ footer .footer-content .footer-icons i {
   height: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .contact .contact-box .contact-content-left {
@@ -755,6 +754,30 @@ footer .footer-content .footer-icons i {
   text-transform: uppercase;
   font-family: Gill Sans;
   font-size: 18px;
+}
+.contact .contact-box .contact-content-right {
+  margin: 0 auto;
+  max-width: 600px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.contact .contact-box .contact-content-right .contact-name,
+.contact .contact-box .contact-content-right .contact-email,
+.contact .contact-box .contact-content-right .contact-company {
+  width: 529px;
+  height: 60px;
+  border-color: none;
+  background-color: lightgrey;
+  margin-top: 10px;
+}
+.contact .contact-box .contact-content-right .contact-name ::placeholder,
+.contact .contact-box .contact-content-right .contact-email ::placeholder,
+.contact .contact-box .contact-content-right .contact-company ::placeholder {
+  color: black;
+  font-family: Gill Sans;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */

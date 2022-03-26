@@ -29,7 +29,6 @@
     height: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     .contact-content-left {
@@ -55,6 +54,30 @@
           text-transform: uppercase;
           font-family: Gill Sans;
           font-size: 18px;
+        }
+      }
+    }
+
+    .contact-content-right {
+      margin: 0 auto;
+      max-width: 600px;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .contact-name,
+      .contact-email,
+      .contact-company {
+        width: 529px;
+        height: 60px;
+        border-color: none;
+        background-color: lightgrey;
+        margin-top: 10px;
+
+        ::placeholder {
+          color: black;
+          font-family: Gill Sans;
+          font-size: 16px;
         }
       }
     }
