@@ -3,5 +3,97 @@
   max-width: $content-width;
   min-height: 100%;
 
-  background-color: blue;
+  // background-color: blue;
+
+  .special-content {
+    margin-top: 50px;
+    position: relative;
+    .special-offers-title {
+      font-size: 30px;
+      margin-bottom: 5px;
+      font-family: Nova;
+      font-weight: thin;
+    }
+    hr {
+      width: 199px;
+      border: 2px solid;
+      margin-top: -10px;
+      position: absolute;
+      left: 0;
+    }
+    p {
+      margin-top: 20px;
+      font-family: Gill Sans;
+      font-size: 16px;
+    }
+
+    .special-box {
+      // min-width: 722px;
+      height: 100%;
+      background-color: antiquewhite;
+      display: flex;
+      position: relative;
+      margin-bottom: 37px;
+
+      .special-title {
+        position: relative;
+
+        span {
+          font-size: 20px;
+          margin-bottom: 5px;
+          font-family: Nova;
+          font-weight: thin;
+          color: orange;
+        }
+        hr {
+          width: 199px;
+          border: 2px solid;
+          margin-top: -10px;
+          position: absolute;
+          left: 0px;
+        }
+      }
+
+      .special-image {
+        height: 287px;
+        width: 199px;
+        background-color: aqua;
+        // overflow: hidden;
+        margin-right: 21px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: none;
+        background-position: center;
+
+        img {
+          height: 287px;
+          width: 199px;
+        }
+      }
+
+      .special-quote {
+        width: 290px;
+        // background-color: pink;
+        margin-bottom: 20px;
+        font-family: Gill Sans;
+        font-size: 16px;
+        font-style: italic;
+        .special-button {
+          background-color: #79addc;
+          width: 122px;
+          max-height: 40px;
+          margin: 0 auto;
+
+          h2 {
+            color: white;
+            font-size: 15px;
+            font-family: Gill Sans;
+            font-style: normal;
+            text-align: center;
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+  }
 }
