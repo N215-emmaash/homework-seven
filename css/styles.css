@@ -620,9 +620,6 @@ footer .footer-content .footer-icons i {
   cursor: pointer;
 }
 
-.blog {
-  background-color: aquamarine;
-}
 .blog .blog-title {
   margin-top: 50px;
   position: relative;
@@ -639,6 +636,69 @@ footer .footer-content .footer-icons i {
   margin-top: -20px;
   position: absolute;
   left: 0;
+}
+.blog .blog-box {
+  margin: 0 auto;
+  max-width: 980px;
+  height: 100%;
+}
+.blog .blog-box .blog-content {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.blog .blog-box .blog-content .blog-date {
+  height: 60px;
+  width: 60px;
+  background-color: #79addc;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+.blog .blog-box .blog-content .blog-date h1 {
+  font-family: Gill Sans;
+  font-size: 22px;
+  color: white;
+  margin-bottom: -5px;
+}
+.blog .blog-box .blog-content .blog-date h2 {
+  font-family: Gill Sans;
+  font-size: 12px;
+  color: white;
+}
+.blog .blog-box .blog-image-text {
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.blog .blog-box .blog-image-text .blog-image {
+  min-width: 900px;
+  max-height: 259px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.blog .blog-box .blog-image-text .blog-paragraph {
+  max-width: 380px;
+}
+.blog .blog-box .blog-image-text .blog-paragraph h1 {
+  color: black;
+  font-size: 15px;
+  font-family: Gill Sans;
+}
+.blog .blog-box .blog-image-text .blog-paragraph p {
+  font-size: 13px;
+  font-family: Gill Sans;
+  color: #79addc;
 }
 
 /*# sourceMappingURL=styles.css.map */

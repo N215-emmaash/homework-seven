@@ -1,5 +1,5 @@
 .blog {
-  background-color: aquamarine;
+  // background-color: aquamarine;
 
   .blog-title {
     margin-top: 50px;
@@ -17,6 +17,78 @@
       margin-top: -20px;
       position: absolute;
       left: 0;
+    }
+  }
+
+  .blog-box {
+    margin: 0 auto;
+    max-width: $content-width;
+    height: 100%;
+    // background-color: aquamarine;
+
+    .blog-content {
+      margin: 0 auto;
+      max-width: $content-width;
+      min-height: 430px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+
+      .blog-date {
+        height: 60px;
+        width: 60px;
+        background-color: $site-blue;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+
+        h1 {
+          font-family: Gill Sans;
+          font-size: 22px;
+          color: white;
+          margin-bottom: -5px;
+        }
+
+        h2 {
+          font-family: Gill Sans;
+          font-size: 12px;
+          color: white;
+        }
+      }
+    }
+
+    .blog-image-text {
+      margin: 0 auto;
+      max-width: 900px;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      .blog-image {
+        min-width: 900px;
+        max-height: 259px;
+        overflow: hidden;
+        object-fit: cover;
+      }
+
+      .blog-paragraph {
+        max-width: 380px;
+        h1 {
+          color: black;
+          font-size: 15px;
+          font-family: Gill Sans;
+        }
+        p {
+          font-size: 13px;
+          font-family: Gill Sans;
+          color: $site-blue;
+        }
+      }
     }
   }
 }
