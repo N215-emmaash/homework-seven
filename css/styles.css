@@ -533,91 +533,91 @@ footer .footer-content .footer-icons i {
   margin-bottom: 100px;
 }
 
-.special-offers {
+.special-offers-content {
   margin: 0 auto;
   max-width: 980px;
-  min-height: 100%;
+  height: 100%;
 }
-.special-offers .special-content {
+.special-offers-content .special-offers-title {
   margin-top: 50px;
   position: relative;
 }
-.special-offers .special-content .special-offers-title {
-  font-size: 30px;
-  margin-bottom: 5px;
+.special-offers-content .special-offers-title p {
   font-family: Nova;
-  font-weight: thin;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
-.special-offers .special-content hr {
+.special-offers-content .special-offers-title hr {
   width: 199px;
+  border: 2px solid;
+  margin-top: -20px;
+  position: absolute;
+  left: 0;
+}
+.special-offers-content .special-box {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 980px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.special-offers-content .special-box .special-image {
+  height: 287px;
+  min-width: 199px;
+  padding-right: 50px;
+}
+.special-offers-content .special-box .special-image img {
+  width: 199px;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.special-offers-content .special-box .special-text-section {
+  min-width: 306px;
+  height: 100%;
+  position: relative;
+}
+.special-offers-content .special-box .special-text-section p {
+  font-family: Nova;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.special-offers-content .special-box .special-text-section p span {
+  font-family: Nova;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: orange;
+}
+.special-offers-content .special-box .special-text-section hr {
+  max-width: 196px;
   border: 2px solid;
   margin-top: -10px;
   position: absolute;
   left: 0;
 }
-.special-offers .special-content p {
-  margin-top: 20px;
+.special-offers-content .special-box .special-text-section .special-paragraph {
   font-family: Gill Sans;
   font-size: 16px;
+  max-width: 290px;
+  min-height: 131px;
+  text-transform: lowercase;
 }
-.special-offers .special-content .special-box {
-  height: 100%;
-  background-color: antiquewhite;
-  display: flex;
-  position: relative;
-  margin-bottom: 37px;
-}
-.special-offers .special-content .special-box .special-title {
-  position: relative;
-}
-.special-offers .special-content .special-box .special-title span {
-  font-size: 20px;
-  margin-bottom: 5px;
-  font-family: Nova;
-  font-weight: thin;
-  color: orange;
-}
-.special-offers .special-content .special-box .special-title hr {
-  width: 199px;
-  border: 2px solid;
-  margin-top: -10px;
+.special-offers-content .special-box .special-text-section a .special-read-button {
   position: absolute;
-  left: 0px;
-}
-.special-offers .special-content .special-box .special-image {
-  height: 287px;
-  width: 199px;
-  background-color: aqua;
-  margin-right: 21px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: none;
-  background-position: center;
-}
-.special-offers .special-content .special-box .special-image img {
-  height: 287px;
-  width: 199px;
-}
-.special-offers .special-content .special-box .special-quote {
-  width: 290px;
-  margin-bottom: 20px;
-  font-family: Gill Sans;
-  font-size: 16px;
-  font-style: italic;
-}
-.special-offers .special-content .special-box .special-quote .special-button {
+  left: 0;
+  width: 133px;
+  height: 40px;
   background-color: #79addc;
-  width: 122px;
-  max-height: 40px;
-  margin: 0 auto;
-}
-.special-offers .special-content .special-box .special-quote .special-button h2 {
+  padding: 10px 30px;
+  border-radius: 5px;
   color: white;
   font-size: 15px;
   font-family: Gill Sans;
-  font-style: normal;
-  text-align: center;
-  padding-top: 10px;
+  cursor: pointer;
 }
 
 .blog {
