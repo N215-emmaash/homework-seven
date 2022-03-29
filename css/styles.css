@@ -724,20 +724,17 @@ footer .footer-content .footer-icons i {
   left: 0;
 }
 .contact .contact-box {
-  position: relative;
   max-width: 980px;
   height: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .contact .contact-box .contact-content-left {
   margin: 0 auto;
   max-width: 400px;
   height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 .contact .contact-box .contact-content-left .contact-map {
   max-width: 400px;
@@ -754,30 +751,46 @@ footer .footer-content .footer-icons i {
   text-transform: uppercase;
   font-family: Gill Sans;
   font-size: 18px;
+  margin-top: -3px;
 }
 .contact .contact-box .contact-content-right {
   margin: 0 auto;
-  max-width: 600px;
+  margin-left: 20px;
+  min-width: 600px;
   height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
-.contact .contact-box .contact-content-right .contact-name,
-.contact .contact-box .contact-content-right .contact-email,
-.contact .contact-box .contact-content-right .contact-company {
-  width: 529px;
-  height: 60px;
-  border-color: none;
-  background-color: lightgrey;
+.contact .contact-box .contact-content-right input[type=text] {
+  width: 100%;
+  min-height: 60px;
+  border: none;
+  background-color: #f5f5f5;
   margin-top: 10px;
-}
-.contact .contact-box .contact-content-right .contact-name ::placeholder,
-.contact .contact-box .contact-content-right .contact-email ::placeholder,
-.contact .contact-box .contact-content-right .contact-company ::placeholder {
   color: black;
   font-family: Gill Sans;
   font-size: 16px;
+}
+.contact .contact-box .contact-content-right #textarea {
+  width: 100%;
+  min-height: 160px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f5f5f5;
+  resize: none;
+}
+.contact .contact-box .contact-content-right .contact-read-button {
+  margin-top: 15px;
+  max-width: 168px;
+  min-height: 60px;
+  background-color: #79addc;
+  text-align: center;
+  padding-top: 20px;
+}
+.contact .contact-box .contact-content-right .contact-read-button a {
+  font-size: 16px;
+  width: 100%;
+  font-family: Gill Sans;
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
