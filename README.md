@@ -9,4 +9,4 @@ Your page must be responsive.
 You can align the elements as you wish but they must look good and not touch the sides of the browser.
 Upload your project to Github and add your Web4 link to the README file.
 
-Web 4 Link: https://in-info-web4.informatics.iupui.edu/~emmaash/N215/homework-seven
+Web 4 Link: https://in-info-web4.informatics.iupui.edu/~emmaash/N215/homework-seven/special-offers.html
